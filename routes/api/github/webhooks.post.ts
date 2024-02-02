@@ -1,5 +1,3 @@
-import { Probot } from "probot";
-import app from "../../../probot-app/index.js";
 import type { WebhookEventName } from "@octokit/webhooks-types";
 import { readRawBody } from "h3";
 
@@ -13,13 +11,7 @@ export default eventHandler(async (event) => {
     return new Response("Bad request", { status: 400 });
   }
 
-  const probot = new Probot({
-    appId: process.env.APP_ID,
-    privateKey: process.env.PRIVATE_KEY,
-    secret: process.env.WEBHOOK_SECRET,
-  });
-
-  await probot.load(app);
+  const probot = useProbot();
 
   probot.webhooks.verifyAndReceive({
     id,

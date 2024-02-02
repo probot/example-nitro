@@ -1,5 +1,3 @@
-import { html } from "../utils/html";
-
 export default defineEventHandler(async () => {
   return html`<!DOCTYPE html>
     <html
