@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@octokit/webhooks-types':
     specifier: ^7.3.1
-    version: 7.3.2
+    version: 7.4.0
   h3:
     specifier: ^1.10.1
     version: 1.11.1
@@ -539,6 +539,10 @@ packages:
 
   /@octokit/webhooks-types@7.3.2:
     resolution: {integrity: sha512-JWOoOgtWTFnTSAamPXXyjTY5/apttvNxF+vPBnwdSu5cj5snrd7FO0fyw4+wTXy8fHduq626JjhO+TwCyyA6vA==}
+    dev: false
+
+  /@octokit/webhooks-types@7.4.0:
+    resolution: {integrity: sha512-FE2V+QZ2UYlh+9wWd5BPLNXG+J/XUD/PPq0ovS+nCcGX4+3qVbi3jYOmCTW48hg9SBBLtInx9+o7fFt4H5iP0Q==}
     dev: false
 
   /@octokit/webhooks@12.1.2:
