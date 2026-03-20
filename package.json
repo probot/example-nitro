@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@octokit/webhooks-types": "^7.3.1",
-    "h3": "^1.10.1",
+    "h3": "^1.15.9",
     "nitropack": "latest",
     "probot": "^13.0.1"
   }
