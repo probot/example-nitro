@@ -11,6 +11,6 @@
     "@octokit/webhooks-types": "^7.3.1",
     "h3": "^1.10.1",
     "nitropack": "latest",
-    "probot": "^13.0.1"
+    "probot": "^14.0.0"
   }
 }
